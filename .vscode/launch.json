@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            // "program": "${file}",
+            "program": "4D-Humans-main/track.py",
+            "console": "integratedTerminal",
+            "args": ["video.source='D:/0_Programs/CEB_4D_Human_prj/poses_teste'"],
+            // "args": ["video.source='D:/0_Img_video_ref/video_mocap/monocular/sexy_and_deadly_60fps_sttting_1.mp4'"],
+            "justMyCode": false
+        }
+    ]
+}

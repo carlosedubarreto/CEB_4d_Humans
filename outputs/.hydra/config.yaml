@@ -1,0 +1,95 @@
+seed: 42
+track_dataset: demo
+device: cuda
+base_tracker: PHALP
+train: false
+debug: false
+use_gt: false
+overwrite: true
+task_id: -1
+num_tasks: 100
+verbose: false
+detect_shots: false
+video_seq: null
+video:
+  source: D:/0_Programs/CEB_4D_Human_prj/poses_teste
+  output_dir: outputs/
+  extract_video: true
+  base_path: null
+  start_frame: -1
+  end_frame: 3
+  useffmpeg: false
+  start_time: 0s
+  end_time: 10s
+phalp:
+  predict: TPL
+  pose_distance: smpl
+  distance_type: EQ_019
+  alpha: 0.1
+  low_th_c: 0.8
+  hungarian_th: 100.0
+  track_history: 7
+  max_age_track: 50
+  n_init: 1
+  encode_type: 4c
+  past_lookback: 1
+  detector: vitdet
+  shot: 0
+  start_frame: -1
+  end_frame: 10
+  small_w: 50
+  small_h: 100
+pose_predictor:
+  config_path: C:\Users\carlo\.cache/phalp/weights/pose_predictor.yaml
+  weights_path: C:\Users\carlo\.cache/phalp/weights/pose_predictor.pth
+  mean_std: C:\Users\carlo\.cache/phalp/3D/mean_std.npy
+ava_config:
+  ava_labels_path: C:\Users\carlo\.cache/phalp/ava/ava_labels.pkl
+  ava_class_mappping_path: C:\Users\carlo\.cache/phalp/ava/ava_class_mapping.pkl
+hmr:
+  hmar_path: C:\Users\carlo\.cache/phalp/weights/hmar_v2_weights.pth
+render:
+  enable: false
+  type: HUMAN_MESH
+  up_scale: 2
+  res: 256
+  side_view_each: false
+  metallicfactor: 0.0
+  roughnessfactor: 0.7
+  colors: phalp
+  head_mask: false
+  head_mask_path: C:\Users\carlo\.cache/phalp/3D/head_faces.npy
+  output_resolution: 1440
+  fps: 30
+  blur_faces: false
+  show_keypoints: false
+post_process:
+  apply_smoothing: true
+  phalp_pkl_path: _OUT/videos_v0
+  save_fast_tracks: false
+SMPL:
+  MODEL_PATH: C:\Users\carlo\.cache/phalp/3D/models/smpl/
+  GENDER: neutral
+  MODEL_TYPE: smpl
+  NUM_BODY_JOINTS: 23
+  JOINT_REGRESSOR_EXTRA: C:\Users\carlo\.cache/phalp/3D/SMPL_to_J19.pkl
+  TEXTURE: C:\Users\carlo\.cache/phalp/3D/texture.npz
+MODEL:
+  IMAGE_SIZE: 256
+  SMPL_HEAD:
+    TYPE: basic
+    POOL: max
+    SMPL_MEAN_PARAMS: C:\Users\carlo\.cache/phalp/3D/smpl_mean_params.npz
+    IN_CHANNELS: 2048
+  BACKBONE:
+    TYPE: resnet
+    NUM_LAYERS: 50
+    MASK_TYPE: feat
+  TRANSFORMER:
+    HEADS: 1
+    LAYERS: 1
+    BOX_FEATS: 6
+  pose_transformer_size: 2048
+EXTRA:
+  FOCAL_LENGTH: 5000
+hmr_type: hmr2018

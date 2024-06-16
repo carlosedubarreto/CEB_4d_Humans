@@ -1,0 +1,95 @@
+{
+    "rokoko_custom_names": true,
+    "version": 1,
+    "bones": {
+        "custom_bone_m_avg_pelvis": [
+            "m_avg_pelvis",
+            "mixamorig:hips"
+        ],
+        "custom_bone_m_avg_spine1": [
+            "m_avg_spine1",
+            "mixamorig:spine"
+        ],
+        "custom_bone_m_avg_spine2": [
+            "m_avg_spine2",
+            "mixamorig:spine1"
+        ],
+        "custom_bone_m_avg_l_ankle": [
+            "m_avg_l_ankle",
+            "mixamorig:leftfoot"
+        ],
+        "custom_bone_m_avg_r_ankle": [
+            "m_avg_r_ankle",
+            "mixamorig:rightfoot"
+        ],
+        "custom_bone_m_avg_spine3": [
+            "m_avg_spine3",
+            "mixamorig:spine2"
+        ],
+        "custom_bone_m_avg_l_foot": [
+            "m_avg_l_foot",
+            "mixamorig:lefttoebase"
+        ],
+        "custom_bone_m_avg_r_foot": [
+            "m_avg_r_foot",
+            "mixamorig:righttoebase"
+        ],
+        "custom_bone_m_avg_neck": [
+            "m_avg_neck",
+            "mixamorig:neck"
+        ],
+        "custom_bone_m_avg_head": [
+            "m_avg_head",
+            "mixamorig:head"
+        ],
+        "custom_bone_m_avg_l_wrist": [
+            "m_avg_l_wrist",
+            "mixamorig:lefthand"
+        ],
+        "custom_bone_m_avg_r_wrist": [
+            "m_avg_r_wrist",
+            "mixamorig:righthand"
+        ],
+        "custom_bone_m_avg_l_hip": [
+            "m_avg_l_hip",
+            "mixamorig:leftupleg"
+        ],
+        "custom_bone_m_avg_r_hip": [
+            "m_avg_r_hip",
+            "mixamorig:rightupleg"
+        ],
+        "custom_bone_m_avg_l_knee": [
+            "m_avg_l_knee",
+            "mixamorig:leftleg"
+        ],
+        "custom_bone_m_avg_r_knee": [
+            "m_avg_r_knee",
+            "mixamorig:rightleg"
+        ],
+        "custom_bone_m_avg_l_collar": [
+            "m_avg_l_collar",
+            "mixamorig:leftshoulder"
+        ],
+        "custom_bone_m_avg_r_collar": [
+            "m_avg_r_collar",
+            "mixamorig:rightshoulder"
+        ],
+        "custom_bone_m_avg_l_shoulder": [
+            "m_avg_l_shoulder",
+            "mixamorig:leftarm"
+        ],
+        "custom_bone_m_avg_r_shoulder": [
+            "m_avg_r_shoulder",
+            "mixamorig:rightarm"
+        ],
+        "custom_bone_m_avg_l_elbow": [
+            "m_avg_l_elbow",
+            "mixamorig:leftforearm"
+        ],
+        "custom_bone_m_avg_r_elbow": [
+            "m_avg_r_elbow",
+            "mixamorig:rightforearm"
+        ]
+    },
+    "shapes": {}
+}

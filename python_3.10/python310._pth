@@ -1,0 +1,6 @@
+Lib/site-packages
+python310.zip
+.
+
+# Uncomment to run site.main() automatically
+import site

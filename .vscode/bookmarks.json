@@ -1,0 +1,169 @@
+{
+	"files": [
+		{
+			"path": "four_d_humans_blender.py",
+			"bookmarks": [
+				{
+					"line": 198,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 1219,
+					"column": 0,
+					"label": "Import Video WHAM"
+				},
+				{
+					"line": 1276,
+					"column": 0,
+					"label": "SLAHMR Add video"
+				},
+				{
+					"line": 1556,
+					"column": 0,
+					"label": "Execute wham"
+				},
+				{
+					"line": 1692,
+					"column": 0,
+					"label": "Import Character"
+				},
+				{
+					"line": 2037,
+					"column": 0,
+					"label": "processo importa wham"
+				},
+				{
+					"line": 2189,
+					"column": 0,
+					"label": "baking the movement"
+				},
+				{
+					"line": 2302,
+					"column": 0,
+					"label": "Export PKL Animation"
+				},
+				{
+					"line": 2388,
+					"column": 0,
+					"label": "Read PKL Data"
+				},
+				{
+					"line": 2419,
+					"column": 0,
+					"label": "Impor RAW PKL Animation"
+				},
+				{
+					"line": 2659,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 3168,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 3609,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 3905,
+					"column": 0,
+					"label": "Extract Markers for selected Bones"
+				},
+				{
+					"line": 3972,
+					"column": 0,
+					"label": "Clear Markers"
+				},
+				{
+					"line": 4478,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 4524,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 5541,
+					"column": 0,
+					"label": "Ik Control"
+				},
+				{
+					"line": 5550,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "panel.py",
+			"bookmarks": [
+				{
+					"line": 181,
+					"column": 0,
+					"label": "IK Control Panel"
+				},
+				{
+					"line": 302,
+					"column": 0,
+					"label": "flags de checagem"
+				},
+				{
+					"line": 403,
+					"column": 0,
+					"label": "4d Humans EXECUTE"
+				},
+				{
+					"line": 697,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 976,
+					"column": 0,
+					"label": "WHAM Start"
+				},
+				{
+					"line": 1065,
+					"column": 0,
+					"label": "SLAHMR options"
+				},
+				{
+					"line": 1127,
+					"column": 0,
+					"label": "4D Humans VENV"
+				},
+				{
+					"line": 1299,
+					"column": 0,
+					"label": "wham_venv"
+				},
+				{
+					"line": 1494,
+					"column": 0,
+					"label": "SLAHMR VENV"
+				}
+			]
+		},
+		{
+			"path": "4D-Humans-main/PHALP/phalp/trackers/PHALP.py",
+			"bookmarks": [
+				{
+					"line": 638,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 648,
+					"column": 0,
+					"label": "download smpl pkl model"
+				}
+			]
+		}
+	]
+}

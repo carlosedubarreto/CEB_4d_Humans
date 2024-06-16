@@ -1,0 +1,28 @@
+type: video
+split: val
+# root: /path/to/data  # put your videos in root/videos/vid.mp4
+# root: D:\0_Programs\CEB_4D_Human_prj\CEB_4d_Human\slahmr\data_input  # put your videos in root/videos/vid.mp4
+root: ../../data_input  # put your videos in root/videos/vid.mp4
+# root: data_input  # put your videos in root/videos/vid.mp4
+video_dir: videos
+seq: video_slahmr 
+ext: mp4
+src_path: ${data.root}/${data.video_dir}/${data.seq}.${data.ext}
+frame_opts:
+  ext: jpg
+  fps: 30
+  start_sec: 0
+  end_sec: -1
+use_cams: True
+track_ids: "all"
+shot_idx: 0
+start_idx: 0
+end_idx: 98
+split_cameras: True
+# name: ${data.seq}-${data.track_ids}-shot-${data.shot_idx}-${data.start_idx}-${data.end_idx}
+name: ${data.seq}
+sources:
+  images: ${data.root}/images/${data.seq}
+  cameras: ${data.root}/slahmr/cameras/${data.seq}/shot-${data.shot_idx}
+  tracks: ${data.root}/slahmr/track_preds/${data.seq}
+  shots: ${data.root}/slahmr/shot_idcs/${data.seq}.json
