@@ -44,7 +44,7 @@ Publications using the Software
 You acknowledge that the Software is a valuable scientific resource and agree to appropriately reference the following paper in any publication making use of the Software.
 
 Citation:
-
+```
 @inproceedings{Bogo:ECCV:2016,
         title = {Keep it {SMPL}: Automatic Estimation of {3D} Human Pose and Shape
         from a Single Image},
@@ -56,6 +56,7 @@ Citation:
         month = oct,
         year = {2016}
         }
+```
 Commercial licensing opportunities
 For commercial uses of the Software, please send email to ps-license@tue.mpg.de
 
